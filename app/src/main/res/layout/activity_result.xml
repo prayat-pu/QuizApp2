@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="py.prayat559.quizapp2.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/iv_question"
+        android:layout_width="237dp"
+        android:layout_height="199dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/ic_trophy" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:text="Hey, Congratulations!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:text="username"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:text="Your Score is 9 out of 10"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="FINISH"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
